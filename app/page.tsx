@@ -1,5 +1,6 @@
 import AddNewRecord from "@/components/AddNewRecord";
 import Guest from "@/components/Guest";
+import RecordChart from "@/components/RecordChart";
 import { currentUser } from "@clerk/nextjs/server"
 import Image from "next/image";
 
@@ -49,6 +50,9 @@ const page = async () => {
             </div>
 
             {/* Right column */}
+            <div className="space-y-6">
+                <RecordChart/>
+            </div>
         </div>
     </div>
   )
