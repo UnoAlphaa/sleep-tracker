@@ -1,5 +1,4 @@
-import { SignedOut, SignIn, SignInButton } from "@clerk/nextjs"
-import Link from "next/link"
+import { SignedOut, SignInButton } from "@clerk/nextjs"
 
 const page = () => {
   return (
@@ -60,7 +59,7 @@ const page = () => {
         <section className=" py-16 px-8 bg-gray-200 w-full mt-[-10px] ">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to sleep Better?</h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-center">
-                Join the Sleep Tracker community today and take the first step towards better sleep. Whether you’re looking to improve your sleep quality, understand your patterns, or simply get more rest, we’re here to help. Sign up now and start your journey to a healthier, happier you!
+                Join the Sleep Tracker community today and take the first step towards better sleep. Whether you are looking to improve your sleep quality, understand your patterns, or simply get more rest, we’re here to help. Sign up now and start your journey to a healthier, happier you!
             </p>
             <SignedOut>
                 <SignInButton>

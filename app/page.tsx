@@ -5,7 +5,6 @@ import Guest from "@/components/Guest";
 import RecordChart from "@/components/RecordChart";
 import RecordHistory from "@/components/RecordHistory";
 import { currentUser } from "@clerk/nextjs/server"
-import Image from "next/image";
 
 const page = async () => {
   const user = await currentUser();
@@ -33,7 +32,7 @@ const page = async () => {
                             <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">{user.firstName}</span>
                           </h2>
                           <p className=" mb-4 text-md">
-                          Here's a quick overview of your sleep pattern, stay on top of your data insight and manage your sleep waves 😉
+                          Here is a quick overview of your sleep pattern, stay on top of your data insight and manage your sleep waves 😉
                           </p>
 
                           <div>
