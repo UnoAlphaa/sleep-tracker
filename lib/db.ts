@@ -1,8 +1,14 @@
 import {PrismaClient} from '@prisma/client';
 
+//add no-var
+
+/* elisnt-disable no-var */
+
 declare global {
     var prisma : PrismaClient | undefined;
 }
+
+/* elisnt-disable no-var */
 
 export const db = globalThis.prisma || new PrismaClient();
 
