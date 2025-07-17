@@ -12,14 +12,17 @@ const page = () => {
             </h1>
 
             <p className="text-sm md:text-md ">
-                At SleepWell, we believe that quality sleep is the foundation of a healthier, happier life. Our web app helps you track your sleep patterns, analyze trends, and discover personalized insights to improve your rest. Whether you're struggling with insomnia, irregular sleep schedules, or just want to optimize your nightly routine, SleepWell provides intuitive tools—from smart alarms to detailed sleep reports—backed by science. Join thousands of users who are waking up refreshed and taking control of their sleep, one night at a time.
+                At SleepWell, we believe that quality sleep is the foundation of a healthier, happier life. Our web app helps you track your sleep patterns, analyze trends, and discover personalized insights to improve your rest. Whether you are struggling with insomnia, irregular sleep schedules, or just want to optimize your nightly routine, SleepWell provides intuitive tools—from smart alarms to detailed sleep reports—backed by science. Join thousands of users who are waking up refreshed and taking control of their sleep, one night at a time.
             </p>
         </section>
 
         {/* mission section */}
         <section className="mt-[-20px] py-16 px-8 bg-white">
             <h2 className="text-4xl md:text-5xl font-bold mb-2">Our Mission</h2>
-            <p>To empower people to achieve restorative sleep through technology, education, and personalized insights. We believe that better sleep leads to better lives—improving mental clarity, physical health, and emotional well-being. By combining intuitive tracking with science-backed recommendations, we’re on a journey to help you understand your sleep, break unhealthy patterns, and wake up every day feeling truly refreshed.</p>
+            <p>To empower people to achieve restorative sleep through technology, education, 
+                and personalized insights. 
+                We believe that better sleep leads to better lives—improving mental clarity, physical health, and emotional well-being. 
+                By combining intuitive tracking with science-backed recommendations, we are on a journey to help you understand your sleep, break unhealthy patterns, and wake up every day feeling truly refreshed.</p>
         </section>
 
         {/* Features section */}
@@ -52,14 +55,14 @@ const page = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Story</h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-center">
                 Sleep Tracker was born out of a personal struggle with sleep. Our founder, after years of battling insomnia and poor sleep quality, realized the need for a simple yet effective solution to track and improve sleep habits. With a background in technology and a passion for wellness, they set out to create an app that not only tracks sleep but also educates users on the science of rest. Today, Sleep Tracker is a community-driven platform that continues to evolve based on user feedback and the latest research in sleep science.
-                Our team is dedicated to helping you understand your sleep patterns, break unhealthy habits, and wake up feeling refreshed and ready to take on the day. We’re not just building an app; we’re building a movement towards better sleep for everyone.       
+                Our team is dedicated to helping you understand your sleep patterns, break unhealthy habits, and wake up feeling refreshed and ready to take on the day. We are not just building an app; we are building a movement towards better sleep for everyone.       
             </p>
         </section>
         {/* call to action section */}
         <section className=" py-16 px-8 bg-gray-200 w-full mt-[-10px] ">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to sleep Better?</h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-center">
-                Join the Sleep Tracker community today and take the first step towards better sleep. Whether you are looking to improve your sleep quality, understand your patterns, or simply get more rest, we’re here to help. Sign up now and start your journey to a healthier, happier you!
+                Join the Sleep Tracker community today and take the first step towards better sleep. Whether you are looking to improve your sleep quality, understand your patterns, or simply get more rest, we are here to help. Sign up now and start your journey to a healthier, happier you!
             </p>
             <SignedOut>
                 <SignInButton>
